@@ -92,17 +92,17 @@ Authorization: Bearer <token>
 **Register body:**
 ```json
 {
-  "username": "john",
+  "username": "rishi",
   "password": "pass1234",
   "fullName": "John Doe",
-  "email": "john@example.com",
+  "email": "rishi@example.com",
   "phone": "+91-9876543210"
 }
 ```
 
 **Login body:**
 ```json
-{ "username": "john", "password": "pass1234" }
+{ "username": "rishi", "password": "pass1234" }
 ```
 
 **Response:**
@@ -111,8 +111,8 @@ Authorization: Bearer <token>
   "token": "eyJhbGci...",
   "tokenType": "Bearer",
   "userId": 1,
-  "username": "john",
-  "fullName": "John Doe",
+  "username": "rishi",
+  "fullName": "rishi kant",
   "role": "USER"
 }
 ```
